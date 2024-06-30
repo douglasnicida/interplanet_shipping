@@ -1,0 +1,96 @@
+.addContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.addContent {
+    width: 100%;
+    height: calc(100vh - 220px);
+
+    padding: 50px;
+}
+
+.planetButton {
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+}
+
+.planetButton .separator {
+    width: 2px;
+    height: 40px;
+
+    background-color: rgba(0, 0, 0, .30);
+
+    margin: 0 20px;
+}
+
+.Forms {
+    width: 100%;
+    height: auto;
+
+    margin-top: 50px;
+}
+
+.FormsContainer {
+    display: flex;
+    width: 100%;
+
+    gap: 90px;
+}
+
+.FormsContainer .right, .FormsContainer .left {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.FormsContainer label {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.FormsContainer label:first-child {
+    margin-top: 0px;
+}
+
+.FormsContainer input {
+    border: 2px solid var(--secondary);
+    height: 40px;
+
+    padding: 0 20px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+}
+
+.mainCheckbox {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    gap: 20px;
+}
+
+.mainOption {
+    width: 20px;
+    cursor: pointer;
+}
+
+.main, .not-main {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.mainOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    margin-right: 30px;
+}

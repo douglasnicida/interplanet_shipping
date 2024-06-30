@@ -1,0 +1,70 @@
+.buttonContainer {
+    width: fit-content;
+    height: fit-content;
+
+    padding: 14px 25px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+    line-height: 1;
+
+    transition: all .1s ease-in-out;
+}
+
+.primary {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.primary:hover {
+    background-color: darkblue;
+}
+
+.secondary {
+    background-color: white;
+    color: black;
+}
+
+button.secondary:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+.outline-primary {
+    border: 2px solid var(--primary-blue);
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+.outline-primary:hover {
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.outline-primary.active {
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.outline-secondary {
+    border: 2px solid var(--secondary);
+    color: black;
+    font-weight: bold;
+}
+
+.outline-secondary:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+.mars {
+    background-color: brown;
+    color: white;
+}
+
+.mars:hover {
+    background-color: rgb(124, 31, 31);
+}
+
+a.link{
+    width: fit-content;
+}
